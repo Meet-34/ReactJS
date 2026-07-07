@@ -1,6 +1,6 @@
 import React from "react";
 
-//? Assigned default value for btnText
+// Assigned default value for btnText
 function Card({username, btnText="View"}) {
   console.log({username});
   return (
@@ -26,7 +26,7 @@ function Card({username, btnText="View"}) {
 
           <button className="mt-5 w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-lg transition duration-300">
             {btnText || "View"}
-            //? In case no value is passed for "btnText", by default "View" will be shown
+            {/* In case no value is passed for "btnText", by default "View" will be shown */}
           </button>
         </div>
       </div>
